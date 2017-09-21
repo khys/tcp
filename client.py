@@ -2,7 +2,7 @@
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = '192.168.200.3'
+host = '192.168.40.30'
 port = 9999
 s.connect((host, port))
 
